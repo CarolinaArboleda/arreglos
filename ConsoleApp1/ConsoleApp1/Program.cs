@@ -48,7 +48,7 @@ namespace arreglos
             //CUADRÁTICAS
             int[,] m_enteros = new int [5,5];
 
-            float[,] m_puntos = new int[10,10]
+            float[,] m_puntos = new int[10,10];
 
             //ejemplo con matriz char:
 
@@ -62,7 +62,17 @@ namespace arreglos
                     
                 }
                 Console.WriteLine(" ");
-            }*/
+            }
+            
+            //NO CUADRÁTICAS
+
+            int[,] m_reservas = new int[20,4];
+
+            float[,] m_nro_pedidos;
+
+            m_nro_pedidos = [15,9];
+
+             */
         }
     }
 }
