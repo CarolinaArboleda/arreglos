@@ -11,7 +11,7 @@ namespace arreglos
             //VECTORES (arreglos en una dimensión).
 
             //vector tipo string
-            string[] v_frutas; //vector clase string vacío
+            /*string[] v_frutas; //vector clase string vacío
             v_frutas = new string[5]; //se declara el vector con 5 posiciones
             v_frutas[0] = "manzana"; v_frutas[1] = "banano"; v_frutas[2] = "pera"; v_frutas[3] = "fresa";v_frutas[4] = "mango";
             for(int i = 0; i < 5; i++)
@@ -39,6 +39,30 @@ namespace arreglos
             {
                 Console.WriteLine(v_notas[i]);
             }
+
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+
+            //MATRICES (arrays)
+
+            //CUADRÁTICAS
+            int[,] m_enteros = new int [5,5];
+
+            float[,] m_puntos = new int[10,10]
+
+            //ejemplo con matriz char:
+
+            char[,] m_triqui = { { 'x','x','o' },{ 'x','o','o'},{ 'x','o','x'} };
+
+            for (int i = 0; i < 3; i++)
+            {
+                for(int j = 0; j < 3; j++)
+                {
+                    Console.Write(m_triqui[i, j] + "|");
+                    
+                }
+                Console.WriteLine(" ");
+            }*/
         }
     }
 }
